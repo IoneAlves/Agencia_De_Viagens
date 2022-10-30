@@ -1,0 +1,665 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #fffff3;
+    font-family: 'Lexend Giga', sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    width: 80%;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* Configuração Cabeçalho */
+
+.headerFlex {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 0;
+}
+
+.headerFlex img {
+    width: 250px;
+}
+
+.flexNav {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 2em;
+}
+
+nav ul {
+    display: flex;
+    gap: 5vmin;
+    list-style: none;
+}
+
+nav ul li a {
+    color: #737373;
+    font-size: 2vmin;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover {
+    color: #730220;
+}
+
+.searchHeader {
+    position: relative;
+}
+
+.searchHeader input {
+    border-radius: 2em;
+    border: none;
+    box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.5);
+    padding: 0.5em 0;
+    padding-left: 0.5rem;  
+}
+
+.searchHeader input:focus {
+    background-color: #73022073;
+    border: none;
+    box-shadow: none; 
+    outline: none;
+}
+
+.searchHeader i {
+    color: #730220;
+    font-size: 1.2em; 
+    position: absolute;
+    right: 0.5em;
+    top: 0.28em
+}
+
+/* Hero Section */
+
+.hero{
+    position: relative;
+}
+
+.hero__section {
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 10%;
+}
+
+.hero__boxContent {
+    color: #fffff3;
+    display: flex;
+    flex-direction: column;
+    font-weight: 300;
+    gap: 2em;
+    justify-content: space-between;
+    text-shadow: 1px 1px 5px #000;
+    width: 60%;
+}
+
+.hero__boxContent__title {
+    color: #d2c2b1;
+    font-family: 'Baloo Bhai';
+    font-size: 12vmin;
+    line-height: 1;
+    text-shadow: 0px 0px 15px #000;
+}
+
+.hero__boxContent__button {
+    background-color: #730220;
+    border-radius: 5em;
+    border: none;
+    box-shadow: 0 2px 5px 1px rgb(0, 0, 0);
+    color: #fffff3;
+    padding: 1rem 3rem;
+}
+
+.hero__boxContent__text {
+    line-height: 1.2;
+    font-size: 2vmin;
+}
+
+/* Services Section*/
+
+/* General Configuration */
+
+.services .services_box_content, .services_button_section {
+    padding: 1em 0;
+    text-align: center;
+}
+
+/* Text Configuration */
+
+.services_box_text__title {
+    color: #730220;
+    font-family: 'Baloo Bhai';
+    font-size: 4vmax;
+    margin: 0.2em 0;
+}
+
+.services_box_text__text {
+    font-size: 1.5vmax;
+}
+
+/* Cards Configuration */
+
+.services_box_card {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em 0;
+}
+
+.services_box_card figure {
+    background-color: #d2c2b1;
+    box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.5);
+    color: #0d0d0d;
+    width: 30%;
+}
+
+figcaption {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1vmax;
+}
+
+figcaption span {
+    color: #730220;
+    font-size: 1.5vmax;
+    font-weight: bold;
+}
+
+figcaption p {
+    font-size: 1.2vmax;
+}
+
+figcaption div i {
+    color: #730220;
+    font-size: 1.5vmax; 
+    margin-right: 0.5em;
+}
+
+.services_button_section__btn {
+    background-color: #730220;
+    border-radius: 5em;
+    border: none;
+    color: #e9eff2;
+    margin: 0;
+    padding: 1em 3em;
+}
+
+/* Discount Section */
+
+.discount {
+    background-image: url("/IMG/bgCinza.png");
+    background-position: -150px;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    padding: 1rem 0;
+}
+
+.discount_box {
+    display: flex;
+    justify-content: center;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.514);
+}
+
+.discount_box__img {
+    background-image: url("/IMG/boots.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+}
+
+.discount_box__content {
+    align-items: center;
+    background-color: #0D0D0D;
+    color: #F2F2F2;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    justify-content: space-between;
+    padding: 3rem 2rem;
+    width: 50%;
+}
+
+.discount_box__content__title{
+    font-size: 6vmin;
+}
+
+.discount_box__content__form {
+    width: 100%;
+}
+
+.discount_box__content__form input{
+    background-color: #e9eff2;
+    border-radius: 2rem;
+    border: none;
+    color: #737373;
+    font-size: 1vmin;
+    margin:0.5rem 0;
+    outline: none;
+    padding: 0.7rem 0.5rem;
+    width: 100%;
+}
+
+.discount_box__content__button {
+    background-color: #e9eff2;
+    border-radius: 5em;
+    border: none;
+    font-weight: bold;
+    margin-top: 2em;
+    padding: 0.7rem 3.5rem;
+    cursor: pointer;
+}
+
+.discount_box__content__button:hover {    
+    animation: btnColor 1s cubic-bezier(1, 0, 0, 1);
+    animation-fill-mode: both;
+}
+
+@keyframes btnColor {
+    from {background-color: #e9eff2;}
+    to {background-color: #730220; color: #F2F2F2;}
+  }
+
+
+/* Explore Section */
+
+.explore  {
+    position: relative;
+}
+
+.explore__img {
+    width: 100%;
+}
+
+.explore_box_content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding: 25rem 0;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+}
+
+.explore_box_content_title {
+    height: 50%;
+    position: absolute;
+    top: 0;
+    padding-top: 20vmin;
+}
+
+.explore_box_content_title h2 {
+    color: #730220;
+    font-size: 10vmin;
+    font-family: 'Baloo Bhai';
+    line-height: 1;
+    text-shadow: 0px 0px 15px rgba(0, 0, 0, 0.308);
+}
+
+/* Depoiments Section */
+
+.depoiments {
+    background-image: url("/IMG/bgCinza.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+    padding: 3rem 0;
+}
+
+.depoiments_box_content {
+    display: flex;
+    gap: 2em;
+    padding: 2rem 0;
+}
+
+.depoiments_box_content__col {
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.depoiments_box_content__col__title  {
+    color: #730220;
+    display: inline-block;
+    font-size: 3vmin;
+    font-weight: bold;
+    padding-bottom: 0.5em;
+}
+
+.depoiments_box_content__col__text {
+    font-size: 2vmin;
+    line-height: 1.5;
+}
+
+/* Quote */
+
+.quote_box {
+    width: 90%;
+    margin: 3rem auto;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.quote_box__icon {
+    color: #730220;
+    font-size: 1.5vmax; 
+    margin-right: 0.5em;
+    font-size: 1rem; 
+}
+
+.quote_box__text {
+    padding: 0;
+    font-size: 0.8em; 
+    font-style: italic;
+}
+
+.quote_box__text__author {
+    font-size: 1rem; 
+    text-align: center;
+    margin: 1em 0;
+    font-weight: bold;
+    color: #730220;
+}
+
+/* cta (Call to Action) Section */
+
+.cta {
+    width: 100%;
+    position: relative;
+}
+
+.cta__position {
+    align-content: center;
+    display: flex;
+    height: 100vh;
+    justify-items: center;
+    padding: 3rem 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.cta__box__content {
+    align-items: center;
+    color: #e9eff2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+    width: 80%;
+}
+
+.cta__box__content__title {
+    font-size: 5vmin;
+    margin-bottom: 2rem;
+}
+
+.cta__box__content__text {
+    font-size: 2vmin;
+}
+
+.cta__box__btn {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    margin: 2.5rem 0;
+}
+
+.cta__box__btn input[type="email"] {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 3vmin;
+    border-radius: 25px;
+    border: none;
+}
+
+.cta__box__btn input[type="submit"] {
+    width: 100%;
+    padding: 0.5rem 0;
+    font-size: 3vmin;
+    border-radius: 25px;
+    width: 25%;
+    position: absolute;
+    top:0;
+    right: 0;
+    border: none;
+    background-color: #730220;
+    color: #e9eff2;
+}
+
+/* Footer Section */
+
+.footer_box {
+    display: flex;
+    gap: 3rem;
+}
+
+.footer_box__left, .footer_box__right  {
+    width: 50%;
+}
+
+.footer_box__left {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    justify-content: space-between;
+    padding: 2rem 0;
+}
+
+.footer_box__left__title {
+    color: #730220;
+    font-weight: bold;
+    font-size: 3.5vmin;
+}
+
+.footer_box__left__text {
+    font-size: 1.8vmin;
+}
+
+.footer_box__left__icons {
+    margin: 1.5rem 0;
+}
+
+.footer_box__left__icons i {
+    color: #730220;
+    margin-right: 0.5rem;
+}
+
+.footer_box__right {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.footer_box__right__content {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 0.5rem;
+    padding: 2rem 0;
+}
+
+.footer_box__right__content li:first-child > a {
+    font-size: 3.5vmin;
+    color: #730220;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer_box__right__content a {
+    font-size: 1.8vmin;
+    text-decoration: none;
+    color: #000;
+}
+
+@media only screen and (max-width: 800px){
+    
+    /* Navegation */
+    
+    .flexNav {
+        display: none;
+    }
+
+    /* Hero Section */
+
+    .headerFlex {
+        justify-content: center;
+    }
+
+    .hero__section {
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        left: 0;
+        text-align: center;
+    }
+    
+    .hero__boxContent {
+        gap: 1rem;
+        align-items: center;
+    }
+
+    .hero__boxContent__title {
+        font-size: 8vmin;       
+    }
+
+    .hero__boxContent__text {
+        line-height: 1.2;
+        font-size: 2vmin;
+        order: 1;
+    }
+   
+    .hero__boxContent__button {
+        padding: 1.5vmin 4vmin;
+        font-size: 1.5vmin;
+    }
+
+    .button_order_media_querie {
+        order: 2;
+    }
+    
+    .depoiments {
+        background-image: url("/IMG/bgCinza.png");
+        background-repeat: repeat;
+        background-size: 100%;
+        padding: 1rem 0;
+    }
+
+    .depoiments_box_content {
+        display: block;
+        padding: 0;
+    }
+    
+    /* Services - Card */
+
+    .cardsServicesSection figure {
+        width: 80%;
+    }
+    
+    .services_box_text__title {
+        font-size: 5vmax; 
+    }
+     
+    .services_box_card {
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 2rem;
+        align-items: center;
+        padding: 2em 0;
+    }
+
+    .services_box_card figure {
+        width: 80%;
+    }
+
+    figcaption span {
+        font-size: 3vmax;
+    }
+    
+    figcaption p {
+        font-size: 2vmax;
+    }
+
+    figcaption div  {
+        text-align: center;
+    }
+    
+    figcaption div i {
+        font-size: 3vmax; 
+    }
+
+    .footerSection {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 3rem;
+    }
+
+    /* Discount Section */
+
+    .discount_box__img {
+        display: none;
+    }
+       
+    .discount_box__content__media__querie {
+        background-image: url("/IMG/boots.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        align-items: center;
+        background-color: #0D0D0D;
+        color: #F2F2F2;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.514);;
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        justify-content: space-between;
+        padding: 3rem 2rem;
+    }
+
+    .cta__box__content__title {
+        font-size: 4vmin;
+        margin-bottom: 2rem;
+    }
+    
+    .cta__box__content__text {
+        font-size: 1.5vmin;
+    }
+
+    /* Footer */
+
+    .footer_box__right {
+        display: none;
+    }
+
+    .footer_box__left {
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer_box__left__title {
+        margin-bottom: 1rem;
+    }
+
+    
+}
