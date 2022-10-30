@@ -204,7 +204,7 @@ figcaption div i {
 /* Discount Section */
 
 .discount {
-    background-image: url("./IMG/bgCinza.png");
+    background-image: url("../IMG/bgCinza.png");
     background-position: -150px;
     background-repeat: no-repeat;
     background-size: 50%;
@@ -218,7 +218,7 @@ figcaption div i {
 }
 
 .discount_box__img {
-    background-image: url("./IMG/boots.jpg");
+    background-image: url("../IMG/boots.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -317,7 +317,7 @@ figcaption div i {
 /* Depoiments Section */
 
 .depoiments {
-    background-image: url("./IMG/bgCinza.png");
+    background-image: url("../IMG/bgCinza.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 50%;
@@ -558,7 +558,7 @@ figcaption div i {
     }
     
     .depoiments {
-        background-image: url("./IMG/bgCinza.png");
+        background-image: url("../IMG/bgCinza.png");
         background-repeat: repeat;
         background-size: 100%;
         padding: 1rem 0;
@@ -621,7 +621,7 @@ figcaption div i {
     }
        
     .discount_box__content__media__querie {
-        background-image: url("./IMG/boots.jpg");
+        background-image: url("../IMG/boots.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
